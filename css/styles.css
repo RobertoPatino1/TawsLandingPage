@@ -11,6 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --ps-color-green:#A2D660;
+  --ps-color-blue:#5578D1;
+  --ps-color-brown:#FFC289;
+  --ps-color-light-blue:#69D5ED;
+  --ps-color-electric-green:#AAEC56;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -10944,11 +10949,12 @@ p {
   }
 }
 header.masthead {
+  height: 4rem;
   padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 5rem;
   text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-background.jpg");
+  color:#101214;
+  background-color: var(--ps-color-green);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
