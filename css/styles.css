@@ -11280,10 +11280,17 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
+  padding-top: 4rem;
   color: #fff;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+
+section #contact .container .text-center .section-subheading h3{
+  padding-top: 0px;
+}
+
 section#contact form#contactForm .form-group {
+  padding-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 section#contact form#contactForm .form-group input,
