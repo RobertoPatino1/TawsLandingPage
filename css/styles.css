@@ -11380,13 +11380,24 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (max-width: 620px) {
   .contenedor-texto{
     display: block;
-    
   }
+
+  .image-container{
+    display:flex;
+  }
+
   .contenedor-izq{
     width: 100%;
   }
   .contenedor-dere{
     margin-top: 1rem;
+    width: 100%;
+  }
+
+  .left-img-container{
+    width: 100%;
+  }
+  .right-img-container{
     width: 100%;
   }
 }
@@ -11398,4 +11409,32 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .video{
   max-width: 100%;
+}
+
+.image-container{
+  display:flex;
+  align-items: center;
+}
+
+
+.left-img-container{
+  background-color: var(--ps-color-brown);
+  padding: 2rem;
+  justify-self: center;
+  border-radius: 25px;
+}
+
+.right-img-container{
+  border-radius: 25px;
+  background-color: var(--ps-color-green);
+  padding: 2rem;
+  height: fit-content;
+  margin-left: 1rem;
+  top: 50%; 
+}
+
+.image-container img{
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 15px;
 }
