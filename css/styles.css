@@ -1758,6 +1758,27 @@ progress {
   font-size: 3.5rem;
   text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
 }
+
+.contenedor-texto{
+  /* justify-content: space-between; */
+  padding: 1rem;
+  text-align: justify;
+  border-radius: 25px;
+}
+
+.contenedor-general{
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor-izq{
+  margin-right: 2rem;
+  background-color:var(--ps-color-brown);
+
+}
+.contenedor-dere{
+  background-color: var(--ps-color-light-blue);
+
+}
 .table {
   --bs-table-color: var(--bs-body-color);
   --bs-table-bg: transparent;
