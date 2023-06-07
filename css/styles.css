@@ -1792,6 +1792,7 @@ progress {
   max-width: 100%;
   margin: 0 auto;
   margin-top: 2rem;
+  border-radius: 20px;
 }
 .table {
   --bs-table-color: var(--bs-body-color);
