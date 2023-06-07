@@ -1789,7 +1789,7 @@ progress {
 .contenedor-imagen img{
   
   display:block;
-  width: 70%;
+  max-width: 100%;
   margin: 0 auto;
   margin-top: 2rem;
 }
@@ -11389,4 +11389,13 @@ section#contact form#contactForm :-ms-input-placeholder {
     margin-top: 1rem;
     width: 100%;
   }
+}
+
+#subtitulo-1{
+  margin-top: auto;
+}
+
+
+.video{
+  max-width: 100%;
 }
