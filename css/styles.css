@@ -1759,16 +1759,14 @@ progress {
   text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
 }
 
-.contenedor-texto{  
+.contenedor-general{  
   text-align: justify;
   height: auto;
   display: flex;
   justify-content: space-between;
 }
 
-.contenedor-general{
 
-}
 .contenedor-izq{
   border-radius: 25px;
   padding: 1rem;
@@ -11387,7 +11385,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 @media (max-width: 620px) {
-  .contenedor-texto{
+  .contenedor-general{
     display: block;
   }
 
@@ -11422,7 +11420,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .image-container{
   display:flex;
+  height: auto;
   align-items: center;
+  justify-content: space-between;
 }
 
 
@@ -11431,6 +11431,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding: 2rem;
   justify-self: center;
   border-radius: 25px;
+  width: 49%;
 }
 
 .right-img-container{
@@ -11440,6 +11441,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: fit-content;
   margin-left: 1rem;
   top: 50%; 
+  width: 49%;
 }
 
 .image-container img{
