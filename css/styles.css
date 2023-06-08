@@ -11390,7 +11390,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
   .image-container{
-    display:flex;
+    display:block;
   }
 
   .contenedor-izq{
@@ -11406,6 +11406,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
   .right-img-container{
     width: 100%;
+    margin-top: 2rem;
+    margin-right: 1rem;
   }
 }
 
@@ -11419,7 +11421,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .image-container{
-  display:flex;
+  display:inherit;
   height: auto;
   align-items: center;
   justify-content: space-between;
@@ -11431,7 +11433,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding: 2rem;
   justify-self: center;
   border-radius: 25px;
-  width: 49%;
+  margin-right: 1rem;
 }
 
 .right-img-container{
@@ -11439,9 +11441,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: var(--ps-color-green);
   padding: 2rem;
   height: fit-content;
-  margin-left: 1rem;
-  top: 50%; 
-  width: 49%;
 }
 
 .image-container img{
