@@ -1794,6 +1794,14 @@ progress {
   margin-top: 2rem;
   border-radius: 20px;
 }
+
+#tortuga{
+  height: 15rem;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 30px;
+}
+
 .table {
   --bs-table-color: var(--bs-body-color);
   --bs-table-bg: transparent;
