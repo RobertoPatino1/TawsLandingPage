@@ -271,7 +271,10 @@ samp {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
 }
-
+#header-code{
+  color: var(--ps-color-electric-green);
+  font-size: 4rem;
+}
 pre {
   display: block;
   margin-top: 0;
@@ -10903,7 +10906,7 @@ p {
   margin-bottom: 3rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
-  padding-top: 5rem;
+  padding-top: 4rem;
   position: relative;
   font-size: 1.5rem;
   font-weight: 400;
