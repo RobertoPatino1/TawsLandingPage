@@ -10889,9 +10889,6 @@ html {
   scroll-padding-top: 4.5rem;
 }
 
-body {
-  position: relative;
-}
 
 p {
   line-height: 1.75;
@@ -10907,7 +10904,7 @@ p {
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   padding-top: 5rem;
-  /* position: relative; */
+  position: relative;
   font-size: 1.5rem;
   font-weight: 400;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
