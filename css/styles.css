@@ -11448,3 +11448,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 1rem;
   border-radius: 15px;
 }
+
+
+.left-container{
+  background-color: #0dcaf0;
+}
+
+.right-container{
+  background-color: #0d6efd;
+}
