@@ -11450,10 +11450,34 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 
-.left-container{
-  background-color: #0dcaf0;
+
+
+.blue-container{
+  border-radius: 2rem;
+  background-color: #0d6efd;
+  padding: 1rem;
 }
 
-.right-container{
-  background-color: #0d6efd;
+.sky-blue-container{
+  border-radius: 2rem;
+  background-color: #0dcaf0;
+  padding: 1rem;
+}
+
+.green-container{
+  border-radius: 2rem;
+  background-color: var(--ps-color-green);
+  padding: 1rem;
+}
+
+.brown-container{
+  border-radius: 2rem;
+  background-color: var(--ps-color-brown);
+  padding: 1rem;
+}
+
+.orange-container{
+  border-radius: 2rem;
+  background-color:var(--bs-warning);
+  padding: 1rem;
 }
