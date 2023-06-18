@@ -271,7 +271,7 @@ samp {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
 }
-#header-code{
+.header-code{
   color: var(--ps-color-electric-green);
   font-size: 4rem;
 }
