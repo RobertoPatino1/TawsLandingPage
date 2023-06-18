@@ -281,7 +281,7 @@ samp {
 }
 .subheading-code{
   color: var(--ps-color-electric-green);
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 pre {
   display: block;
@@ -11509,4 +11509,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #execCode{
   width: fit-content;
+}
+
+
+@media (min-width: 340px) {
+  .subheading-code{
+    font-size: 1.5rem;
+  }
 }
