@@ -11501,3 +11501,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 }
 
+#runBtn{
+  background-color: var(--ps-color-electric-green);
+  width: 6rem;
+  color: white;
+}
+
+#execCode{
+  width: fit-content;
+}
