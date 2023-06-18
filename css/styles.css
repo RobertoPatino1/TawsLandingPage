@@ -11455,7 +11455,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 
-
+.electric-green-container{
+  border-radius: 2rem;
+  background-color: var(--ps-color-electric-green);
+  padding: 1rem;
+}
 
 .blue-container{
   border-radius: 2rem;
@@ -11465,13 +11469,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .sky-blue-container{
   border-radius: 2rem;
-  background-color: #0dcaf0;
+  background-color:#00A3FF;
   padding: 1rem;
 }
 
 .green-container{
   border-radius: 2rem;
-  background-color: var(--ps-color-green);
+  background-color: #76BA1B;
   padding: 1rem;
 }
 
