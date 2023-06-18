@@ -274,6 +274,11 @@ samp {
 .header-code{
   color: var(--ps-color-electric-green);
   font-size: 4rem;
+  
+}
+.subheading-code{
+  color: var(--ps-color-electric-green);
+  font-size: 2.1rem;
 }
 pre {
   display: block;
